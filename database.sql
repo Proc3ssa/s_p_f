@@ -41,11 +41,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`firstname`, `Othername`, `title`, `emp_id`, `email`, `password`) VALUES
-('Achiaa', 'E. Boateng', 'Asst. HRM', 12345, 'ericaachiaa@gmail.com', '11111'),
-('Suugyaa', 'N-Dousila', 'H.R Manager', 74735, 'sugyaa@outlook.com', '11111');
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `departments`
@@ -60,14 +56,7 @@ CREATE TABLE `departments` (
 -- Dumping data for table `departments`
 --
 
-INSERT INTO `departments` (`name`, `hod`) VALUES
-('Accounts', 'Napoleon Tudji'),
-('Administration', 'Wiafe Malledi'),
-('H.R', 'Suugyaa N-Dousila'),
-('I.G.F', ''),
-('Internal Audit', 'Safia Ali'),
-('Registry', 'Nuhu Abubakar'),
-('Social Welfare and Community Development', 'Rhoda Dwamena Bawuah');
+
 
 -- --------------------------------------------------------
 
@@ -88,26 +77,6 @@ CREATE TABLE `employees` (
 -- Dumping data for table `employees`
 --
 
-INSERT INTO `employees` (`firstname`, `othernames`, `emp_id`, `department`, `title`, `gender`) VALUES
-('Safia', 'Ali', 56780, 'Internal Audit', 'Internal Auditor', 'Female'),
-('Suugyaa', 'N-Dousila', 74735, 'H.R', 'H.R Manager', 'Male'),
-('Esther ', 'Donkor', 89076, 'I.G.F', 'Secretary', 'Female'),
-('David ', 'Aquah Agyeman', 125677, 'Internal Audit', 'NSS Personnel', 'Male'),
-('Richard', 'Adubofour', 143578, 'Internal Audit', 'Asst. Internal Auditor', 'Male'),
-('Napoleon', 'Tudji', 234567, 'Accounts', 'Sr. Accountant', 'Male'),
-('Wiafe', 'Malledi', 234678, 'Administration', 'Coordinating Director', 'Male'),
-('Nuhu', 'Abubakar', 235678, 'Registry', 'Snr. Records Sup.', 'Male'),
-('Musah', 'Santa', 236578, 'Internal Audit', 'Assit. Internal Auditor', 'Female'),
-('Hannah', 'Ayita', 236789, 'Administration', 'Stenographer ', 'Female'),
-('Erica', 'A. Boateng', 236798, 'H.R', 'Assistant H.R.M', 'Female'),
-('Daniella', 'Addain', 1456789, 'I.G.F', 'Stenographer ', 'Female'),
-('Rhoda', 'Dwamena Bawuah', 2345676, 'Social Welfare and Community Development', 'Snr. Social Officer', 'Female'),
-('Hussein', 'A. Gambo', 3245677, 'Social Welfare and Community Development', 'Social Development Officer', 'Male'),
-('John', 'Ayimbe', 3466788, 'Social Welfare and Community Development', 'Social Development Officer', 'Male'),
-('Faustina', 'Amisah', 16786534, 'Administration', 'Stenographer ', 'Female'),
-('Diana', 'Awuku', 23245665, 'Administration', 'Stenographer ', 'Female');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `files`
@@ -124,10 +93,6 @@ CREATE TABLE `files` (
 -- Dumping data for table `files`
 --
 
-INSERT INTO `files` (`filename`, `path`, `emp_id`, `up_date`) VALUES
-('Appointment letter', '23245665-Appointment letter-05-06-45.pdf', 23245665, '0000-00-00'),
-('Appointment letter', '3245677-Appointment letter-05-06-55.PNG', 3245677, '0000-00-00'),
-('C.V', '3245677-C.V-05-06-10.PNG', 3245677, '0000-00-00');
 
 --
 -- Indexes for dumped tables
