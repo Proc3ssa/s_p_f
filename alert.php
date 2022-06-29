@@ -1,5 +1,5 @@
 <?php
-function alert($message){
+function alert($message):string{
     return '
     <script>alert("'.$message.'")</script>
     ';
