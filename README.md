@@ -1,5 +1,5 @@
 # s_p_f
-An online system to keep digitized form of employee personal files (staff personal files).
+An online system to keep digitized form of employee personal files (staff personal files)
 # Requirements
 apache server,
 php,
