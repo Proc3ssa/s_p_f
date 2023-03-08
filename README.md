@@ -2,8 +2,7 @@
 An online system to keep digitized form of employee personal files (staff personal files)
 # Requirements
 apache server,
-php,
-and an apache server
+php
 # how to use
 
 *clone this repo, copy and past*
