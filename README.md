@@ -13,4 +13,4 @@ git clone https://github.com/Proc3ssa/s_p_f.git
 cd  s_p_f 
 ```
 For the database open **database.sql** and run it the query  on mysql terminal, it will create all the necessary tables.
-set your DocumentRoot path to the path of this project (ie, s_p_f directory).
+set your DocumentRoot path to the path of this project (ie, s_p_f directory) .
